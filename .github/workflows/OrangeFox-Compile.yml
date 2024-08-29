@@ -22,7 +22,7 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
         required: true
-        default: 'https://github.com/xeroxero8x/device_xiaomi_sweet_k6a'
+        default: 'https://github.com/Mostafameesr/xiaomi_sweet-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch'
         required: true
@@ -30,11 +30,11 @@ on:
       DEVICE_PATH:
         description: 'Specify your device path.'
         required: true
-        default: 'device/xiaomi/sweet_k6a'
+        default: 'device/xiaomi/sweet'
       DEVICE_NAME:
         description: 'Specify your Device Codename.'
         required: true
-        default: 'sweet_k6a'
+        default: 'sweet'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
